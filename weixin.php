@@ -3,7 +3,7 @@ require_once 'lib_images_process.php';
 require_once 'lib_mysql_process.php';
 require_once '../php-image-magician/php_image_magician.php';
 
-define("TOKEN", "zxtweixin");
+define("TOKEN", "***");
 $wechatObj = new wechatCallbackapiTest();
 if (isset($_GET["echostr"])) {
     $wechatObj->valid();
